@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8003"
-HEADERS = {
-    "X-API-KEY": "secret123",
-    "Content-Type": "application/json"
+
+api_url = st.secrets["API_URL"]
+api_key = st.secrets["API_KEY"]
+
 }
 
 
