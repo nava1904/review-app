@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 
-api_url = st.secrets["API_URL"]
-api_key = st.secrets["API_KEY"]
+API_URL = st.secrets["API_URL"]
+API_KEY = st.secrets["API_KEY"]
 
 }
 
